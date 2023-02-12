@@ -1,7 +1,7 @@
 import requests
 
-BOT_API_KEY = '6295550677:AAHHdrSxpATGlxkKsVCuiETb_qN_Tpb3SEI'
-MY_CHANNEL_NAME = '@mazutuzu'
+BOT_API_KEY = '******************************'
+MY_CHANNEL_NAME = '*******************************'
 MY_MESSAGE_TEXT = 'Hello world!'
 
 response = requests.get(f'https://api.telegram.org/bot{BOT_API_KEY}/sendMessage', {
